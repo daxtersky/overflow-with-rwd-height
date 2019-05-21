@@ -1,0 +1,28 @@
+* {
+  font-family: Lato;
+  box-sizing: border-box;
+  color: dimgrey;
+}
+
+html, body {
+  height: 98%;
+  background: silver;
+}
+.beautify {
+  border-radius: 3px;
+  background: white;
+  padding: 4px 20px;
+  margin: 4px 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.scrollable-content {
+  flex: 1;
+  height: 100%;
+  overflow: auto;
+}
